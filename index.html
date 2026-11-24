@@ -13,10 +13,10 @@
 
 
 
-    <nav>
+    <nav class="navbar-container">
         <div class="navbar">
-            <h1><img src="./assets/images/logo.jpg" height="40" width="40"><span>BiteBox</span></h1>
-            <div>
+            <h1 class="logo"><img src="./assets/images/logo.jpg" height="40" width="40"><span>BiteBox</span></h1>
+            <div class="navbar-links">
                 <a Class="navlinks" href="index.html">Home</a>
                 |
                 <a Class="navlinks" href="Menu.html">Menu</a>
@@ -28,7 +28,7 @@
                 <a Class="navlinks" href="Contact.html">Contact</a>
 
 
-                <a Class="navlinks" href="./Login.html"><button>Login</button></a>
+                <a Class="navlinks" href="./Login.html"><button class="login-btn">Login</button></a>
 
 
             </div>
@@ -39,11 +39,11 @@
 
 
     <main>
-        <section>
+        <section class="welcome-section">
             <!-- Welcome Section -->
 
-            <h2>Welcome to BiteBox</h2>
-            <p>
+            <h2 class="heading">Welcome to BiteBox</h2>
+            <p class="para">
                 <strong>Fresh Food</strong>
                 •
                 <em>Fast Delivery</em>
@@ -59,8 +59,8 @@
 
         <hr>
 
-        <section>
-            <h2>Today's Featured Dishes</h2>
+        <section class="featured-section">
+            <h2 class="section-title">Today's Featured Dishes</h2>
             <div class="card">
                 <img src="./assets/images/pizzaindex.jpg" alt="Pizza" height="300" width="300">
                 <h2>Pizza</h2>
@@ -75,7 +75,7 @@
                 <p>Rs.<del>499</del> / <strong>249</strong></p>
                 <button>Order Now</button>
             </div>
-            <div>
+            <div class="card">
                 <img src="./assets/images/burgerindex.jpg" alt="Pizza" height="300" width="300">
                 <h2>Classic Burger</h2>
                 <p>
@@ -90,7 +90,24 @@
                 <p>Rs.<del>499</del> / <strong>249</strong></p>
                 <button>Order Now</button>
             </div>
-            <div>
+            <div class="card">
+                <img src="./assets/images/friesindex.jpg" alt="Pizza" height="300" width="300">
+                <h2>Fries</h2>
+                <p>
+                <ul>
+                    <li>Regular Fries</li>
+                    <li>Sauce / Mayo</li>
+                    <li>Vegetarian/Vegan Patties</li>
+
+                </ul>
+                </p>
+                <p><span>⭐⭐⭐⭐⭐</span> (134)</p>
+                <p>Rs.<del>499</del> / <strong>249</strong></p>
+                <button class="card-button">Order Now</button>
+            </div>
+
+
+            <div class="card">
                 <img src="./assets/images/friesindex.jpg" alt="Pizza" height="300" width="300">
                 <h2>Fries</h2>
                 <p>
@@ -107,7 +124,7 @@
             </div>
 
 
-            <div>
+            <div class="card">
                 <img src="./assets/images/friesindex.jpg" alt="Pizza" height="300" width="300">
                 <h2>Fries</h2>
                 <p>
@@ -124,7 +141,7 @@
             </div>
 
 
-            <div>
+            <div class="card">
                 <img src="./assets/images/friesindex.jpg" alt="Pizza" height="300" width="300">
                 <h2>Fries</h2>
                 <p>
@@ -141,7 +158,7 @@
             </div>
 
 
-            <div>
+            <div class="card">
                 <img src="./assets/images/friesindex.jpg" alt="Pizza" height="300" width="300">
                 <h2>Fries</h2>
                 <p>
@@ -158,24 +175,7 @@
             </div>
 
 
-            <div>
-                <img src="./assets/images/friesindex.jpg" alt="Pizza" height="300" width="300">
-                <h2>Fries</h2>
-                <p>
-                <ul>
-                    <li>Regular Fries</li>
-                    <li>Sauce / Mayo</li>
-                    <li>Vegetarian/Vegan Patties</li>
-
-                </ul>
-                </p>
-                <p><span>⭐⭐⭐⭐⭐</span> (134)</p>
-                <p>Rs.<del>499</del> / <strong>249</strong></p>
-                <button>Order Now</button>
-            </div>
-
-
-            <div>
+            <div class="card">
                 <img src="./assets/images/friesindex.jpg" alt="Pizza" height="300" width="300">
                 <h2>Fries</h2>
                 <p>
@@ -198,16 +198,16 @@
         <!--  -->
 
         <!--Todays Special Offers -->
-        <section>
+        <section class="offer-section">
             <!-- offer content -->
-            <div>
+            <div class="offer-content">
                 <h2>todays special Offer</h2>
                 <p>Get <Strong>20% off</Strong>on all offers above <strong>499</strong></p>
                 <p>Use Code :<strong>BITE20</strong></p>
                 <a href="./Menu.html">Order Now</a>
             </div>
             <!-- offer image -->
-            <div>
+            <div class="offer-image">
                 <img src="./assets/images/pizza.png" alt="pizza ofer " height="300" width="300">
 
             </div>
